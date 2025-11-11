@@ -1,8 +1,0 @@
-function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-}
-
-function sendMessage(e) {
-  e.preventDefault();
-  alert('Thank you for contacting Dilaraa! We’ll reply soon 💌');
-}
